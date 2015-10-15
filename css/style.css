@@ -43,7 +43,7 @@ footer { position:fixed; left:0px; bottom:0px; height:70px; width:100%; backgrou
 
 
 
-.main-menu { width: 1140px; margin:0 auto;} 
+.main-menu { width: 1138px; margin:0 auto;} 
 .main-menu li { float:left; margin-left:2%; margin-bottom: auto; margin-top: auto; font-size: 30px; text-align: center; word-wrap: break-word; }
 .main-menu li a { font-family:"traveling__typewriterregular"; padding:0 10px 6px 10px; color:#fff; }
 
@@ -74,6 +74,7 @@ footer { position:fixed; left:0px; bottom:0px; height:70px; width:100%; backgrou
 .responsive-img{ max-width: 100%; height:auto;}
 .dnone { display: none;}
 .main-page-container { padding-top: 70px;}
+.article-width{ width:70%;}
 /********* END Page Template *********/
 
 /***Home***/
@@ -82,24 +83,24 @@ footer { position:fixed; left:0px; bottom:0px; height:70px; width:100%; backgrou
 .home-mail { width:100%; padding-top: 80px;}
 
 /***Lodging ***/
-.lodging{ padding-top: 20px; color:#fff; font-family:"traveling__typewriterregular"; width:70%; background:rgba(80,78,78,0.5);  margin: 0 auto; text-align: center;}
+.lodging{ padding-top: 20px; color:#fff; font-family:"traveling__typewriterregular";  background:rgba(80,78,78,0.5);  margin: 0 auto; text-align: center;}
 .lodging p {font-size: 14px; line-height: 25px; }
 .lodging p.title { font-size:18px;}
 .lodging h1 { font-size:40px; }
 .lodging-items { padding: 10px;}
-.lodging-items article {width:50%; opacity:1;}
-.lodging-reminder { margin-top:80px;}
+.lodging-items article {width:50%; opacity:1; margin-bottom: 40px;}
+.lodging-reminder { margin-top:40px;}
 /**** END Lodging ****/
 
 
 /***** Transpo Page ****/
-.transportation{ padding-top: 20px; color:#fff; font-family:"traveling__typewriterregular"; width:70%; background:rgba(80,78,78,0.5);  margin: 70px auto 0 auto; text-align: center;}
+.transportation{ padding-top: 20px; color:#fff; font-family:"traveling__typewriterregular";  background:rgba(80,78,78,0.5);  margin: 0 auto; text-align: center;}
 .transportation p.title { font-size:18px; text-align: center; font-weight: bold;}
 .transportation h1 { font-size:40px; }
 .transportation .content{width:85%; margin: 0 auto;}
 .transportation-items { padding: 10px;}
 .transportation-items p { font-size: 12px; text-align: left;} 
-.transportation-items article {width:50%; opacity:1; margin: 40px 0px 30px 0px}
+.transportation-items article {width:50%; opacity:1; margin: 40px 0px 30px 0px; float: left;}
 .emphasize { margin-top: 25px; font-size: 16px !important;}
 .t-article-content{ width: 85%; margin: 30px auto 0 auto; }
 table.t-contact{margin: 25px auto 0 auto;}
@@ -110,15 +111,26 @@ table.t-contact-air{margin: 25px auto 0 auto; width:350px;}
 
 
 /****** About Couple ***/
-.about-couple{ padding: 20px; color:#fff; font-family:"traveling__typewriterregular"; width:70%; background:rgba(80,78,78,0.5);  margin: 70px auto 0 auto; text-align: center;}
+.about-couple{ padding: 20px; color:#fff; font-family:"traveling__typewriterregular";  background:rgba(80,78,78,0.5);  margin: 0 auto; text-align: center;}
 .about-couple p {font-size: 20px; text-align: left;}
 .about-couple p.title { font-size:20px; text-align: center;}
 .about-couple h1 { font-size:40px; }
 .about-couple-items { width:100%; margin-top:20px;}
 .about-couple-info{ padding-left:40px;}
-.about-couple-items article {width:48%; opacity:1; float:right; text-align: left;}
-.about-couple-items article div.contact-info div p { font-size: 14px !important; text-align: left}
+.about-couple-items article {width:48%;  float:right; text-align: left;}
+.about-couple-items article div.contact-info div p { font-size: 14px !important; text-align: left;  word-wrap: break-word;}
 .about-couple-items article div.contact-info div h3 {text-align: left}
 .about-couple-items article div.contact-info div { width: 50%}
 .contact-info { width:100%; margin-top:20px;} 
 /**** END About Couple ***/
+
+
+/***THings To do ***/
+.things-todo{ padding-top: 20px; color:#fff; font-family:"traveling__typewriterregular";  background:rgba(80,78,78,0.5);  margin: 0 auto 50px auto; text-align: center;}
+.things-todo p {font-size: 14px;}
+.things-todo p.title { font-size:18px;}
+.things-todo h1 { font-size:40px; }
+.things-todo-items { padding: 10px;}
+.things-todo-items article {width:33.33%; margin-bottom:25px;}
+
+/**** END Lodging ****/
