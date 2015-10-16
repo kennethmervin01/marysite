@@ -40,6 +40,7 @@ small { font-size: 80%; } /* Addresses inconsistent and variable font size in al
 
 /* TABLET LANDSCAPE */
 @media only screen and (max-width: 1024px) {
+  .article-width {width:70% !important;}
   .main-menu { width: 100% !important; margin:0 auto;} 
   .main-menu li { float:left; margin-left:2%; margin-bottom: auto; margin-top: auto; font-size: 25px !important; text-align: center; word-wrap: break-word; }
   .main-menu li a { font-family:"traveling__typewriterregular"; padding:0 10px 6px 10px; color:#fff; }  
