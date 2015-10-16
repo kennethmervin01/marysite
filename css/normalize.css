@@ -55,27 +55,36 @@ small { font-size: 80%; } /* Addresses inconsistent and variable font size in al
 /* TABLET PORTRAIT AND BIG MOBILE */
 @media only screen and (max-width: 810px) {
   .article-width {width:80% !important;}
+  .about-couple p { font-size: 16px !important;}
   .main-menu li { float:left; margin-left:2%; margin-bottom: auto; margin-top: auto; font-size: 20px !important; text-align: center; word-wrap: break-word; }
 }
 /* TABLET PORTRAIT AND BIG MOBILE */
 @media only screen and (max-width: 768px) {
-  .article-width {width:90% !important;} 
   .main-menu li { float:left; margin-left:2%; margin-bottom: auto; margin-top: auto; font-size: 18px !important; text-align: center; word-wrap: break-word; }
 }
 /* BIG MOBILE LANDSCAPE */
 @media only screen and (max-width: 690px) {
   .transportation-items article {width:100% !important; opacity:1; margin: 40px 0px 30px 0px; float: none !important;}
   footer { display: none !important;}
+  header { display:block !important;}
+  .about-couple p { font-size: 14px !important;}
+  .fixed-nav-bar{ width:100%; position:absolute; z-index:99999; top:0; left:0; right:0; height: 50px; background:rgba(80,78,78,0.5) } 
+  .fixed-nav-bar .menu { position: relative; width:100%;}
+  .menu-brand { color:#fff; padding: 15px 5px 0px 5px; font-size: 14px; height: 35px; }
+  .menu-items { display: none;}
+  .fixed-nav-bar .menu-items li { display: block; width: 100%; padding:5px 0px 5px 0px; text-align: center; background:#757070; color:#fff; font-size: 14px; border: 1px solid #585353; }
+  .fixed-nav-bar .menu-items li a { color: #fff;}
+  .fixed-nav-bar .menu-items li a:hover { color: #81A9CC;}
 }
 /* MOBILE LANDSCAPE */
 @media only screen and (max-width: 480px) {
   .lodging-items article {width:100% !important;}
   .things-todo-items article {width:100% !important;}
-  footer { display: none !important;}
+  
 }
 /* MOBILE PORTRAIT */
 @media only screen and (max-width: 320px) {
-  footer{ display: none !important;}
+  
 }
 
 @media print,

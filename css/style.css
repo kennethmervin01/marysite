@@ -46,7 +46,7 @@ footer { position:fixed; left:0px; bottom:0px; height:70px; width:100%; backgrou
 .main-menu { width: 1138px; margin:0 auto;} 
 .main-menu li { float:left; margin-left:2%; margin-bottom: auto; margin-top: auto; font-size: 30px; text-align: center; word-wrap: break-word; }
 .main-menu li a { font-family:"traveling__typewriterregular"; padding:0 10px 6px 10px; color:#fff; }
-
+.main-menu li a:hover { color:#81A9CC;}
 
 .preloader { position:fixed; width:100%; height:100%; overflow:hidden; }
 .spinner { position: absolute; width:80px; height:80px; top: 50%; left: 50%; margin-left:-40px; margin-top:-40px; animation: rotatee 2.0s infinite linear; -webkit-animation: rotatee 2.0s infinite linear; -moz-animation: rotatee 2.0s infinite linear; -ms-animation: rotatee 2.0s infinite linear; -o-animation: rotatee 2.0s infinite linear; }

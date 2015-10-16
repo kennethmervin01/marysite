@@ -16,10 +16,21 @@
 </head>
 <body>
 <section id="main-container">
-	<header>
-		<nav role="custom-dropdown">
-
-		</nav>​		
+	<header class="dnone">
+		<nav class="fixed-nav-bar">		
+		  <div id="menu" class="menu">
+	  		<div class="fl menu-brand" >Menu</div>
+	  		<div class="fr menu-brand" ><a href="#" id="show-mi"><img style="width:30px; height:30px;" src="images/mobile-menu.png" /></a></div>
+	  		<div class="clr"></div>	
+	  		<ul class="menu-items">
+	  			<li><a data-page="home" href="#">Home</a></li>
+	  			<li><a data-page="lodging" href="#">Lodging</a></li>
+	  			<li><a data-page="transportation" href="#">Transportation</a></li>
+	  			<li><a data-page="things-todo" href="#">Things To Do</a></li>
+	  			<li><a data-page="about-couple" href="#">About The Couple</a></li>
+	  		</ul>	
+		  </div>
+		</nav>	
 	</header>
 	<section id="main-wrapper">
 		<article id="home" class="home slidepage">
@@ -230,7 +241,20 @@
 		var page =$(this).attr("data-page");
 		$(".slidepage").fadeOut("fast");
 		$("#" + page).fadeIn("slow");
+	});
+
+	$(".menu-items li a").click(function(){
+		var page =$(this).attr("data-page");
+		$(".slidepage").fadeOut("fast");
+		$("#" + page).fadeIn("slow");
+		$(".menu-items").hide();
+	});
+
+	$("#show-mi").click(function(){
+		$(".menu-items").toggle();		
 	})
+
+
 </script>
 </body>
 </html>
