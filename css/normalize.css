@@ -70,10 +70,10 @@ small { font-size: 80%; } /* Addresses inconsistent and variable font size in al
   .about-couple p { font-size: 14px !important;}
   .fixed-nav-bar{ width:100%; position:absolute; z-index:99999; top:0; left:0; right:0; height: 50px; background:rgba(80,78,78,0.5) } 
   .fixed-nav-bar .menu { position: relative; width:100%;}
-  .menu-brand { color:#fff; padding: 15px 5px 0px 5px; font-size: 14px; height: 35px; }
+  .menu-brand { color:#fff; padding: 15px 5px 0px 5px; font-size: 14px; height: 35px; font-family:"traveling__typewriterregular"; }
   .menu-items { display: none;}
-  .fixed-nav-bar .menu-items li { display: block; width: 100%; padding:5px 0px 5px 0px; text-align: center; background:#757070; color:#fff; font-size: 14px; border: 1px solid #585353; }
-  .fixed-nav-bar .menu-items li a { color: #fff;}
+  .fixed-nav-bar .menu-items li { display: block; width: 100%; padding:5px 0px 5px 0px; text-align: center; background:#757070; color:#fff; font-size: 16px; border: 1px solid #585353; }
+  .fixed-nav-bar .menu-items li a { font-family:"traveling__typewriterregular"; color: #fff;}
   .fixed-nav-bar .menu-items li a:hover { color: #81A9CC;}
 }
 /* MOBILE LANDSCAPE */
